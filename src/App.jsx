@@ -2,9 +2,9 @@ import { useState, useMemo, useCallback, useEffect } from 'react'
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 const UNLOCK_CODE   = 'SeizeTheDay'
-const STRIPE_URL    = 'https://buy.stripe.com/YOUR_STRIPE_LINK' // ← replace with your Stripe Payment Link
+const STRIPE_URL    = 'https://buy.stripe.com/9B6bJ12377m92r66GH6Zy0j'
 const STORAGE_KEY   = 'pca_unlocked'
-const TOOL_NAME     = 'QuoteForge Pro'
+const TOOL_NAME     = 'Pricing Calculator'
 const TOOL_TAGLINE  = 'Professional Pricing Calculator'
 
 // ─── OPTIONS ─────────────────────────────────────────────────────────────────
