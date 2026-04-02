@@ -342,7 +342,7 @@ export default function App() {
       <header className="app-header">
         <div className="header-inner">
           <div className="brand-logo">
-            Profit Clarity Advantage™ <span>/ QUOTE TOOL</span>
+            Bryce Tubbs™ <span>/ QUOTE TOOL</span>
           </div>
           <div className="header-totals">
             <div className="header-total-chip">
@@ -366,7 +366,7 @@ export default function App() {
           {/* PRINT HEADER — only visible when printing */}
           <div className="print-header" style={{ display: 'none' }}>
             <div>
-              <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '1.3rem', color: '#b8860b' }}>Profit Clarity Advantage™</div>
+              <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '1.3rem', color: '#b8860b' }}>Bryce Tubbs™</div>
               <div style={{ fontSize: '0.8rem', color: '#555', marginTop: 2 }}>Client Pricing Quote</div>
             </div>
             <div style={{ textAlign: 'right', fontSize: '0.8rem', color: '#555' }}>
