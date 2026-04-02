@@ -151,7 +151,7 @@ function LockModal({ onUnlock, onDemo }) {
             ['✓','All service & software fee formulas — pre-loaded'],
             ['✓','Smart print: shows only items quoted, nothing else'],
             ['✓','One-click quote copy for emails & messages'],
-            ['✓','Real estate transaction estimator built in'],
+            ['✓','Transaction estimator built in'],
             ['✓','Catch-up, historical clean-up, and one-time pricing'],
           ].map(([dot,text])=>(
             <div key={text} className="perk-item">
@@ -203,7 +203,7 @@ function REHelper({ onUse }) {
     <div className="re-card">
       <div className="scard-hdr" style={{cursor:'pointer'}} onClick={()=>setOpen(o=>!o)}>
         <div className="scard-icon">🏘️</div>
-        <div className="scard-title">Real Estate Transaction Estimator</div>
+        <div className="scard-title">Transaction Estimator</div>
         <span className={`scard-chev${open?' open':''}`}>▼</span>
       </div>
       {open && (
